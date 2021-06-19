@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+
+    <appenders>
+        <File name="searchFile" fileName="logs/search.log" immediateFlush="true">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="inputErrorsFile" fileName="logs/input_errors.log" immediateFlush="true">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+        <File name="exceptionFile" fileName="logs/exceptions.log" immediateFlush="true">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+
+    </appenders>
+
+    <loggers>
+
+        <logger name="Search" level="info">
+            <appender-ref ref="searchFile"/>
+        </logger>
+
+        <logger name="InputErrors" level="warn">
+            <appender-ref ref="inputErrorsFile"/>
+        </logger>
+
+        <logger name="Exceptions" level="error">
+            <appender-ref ref="exceptionFile"/>
+        </logger>
+
+    </loggers>
+
+
+</configuration>
