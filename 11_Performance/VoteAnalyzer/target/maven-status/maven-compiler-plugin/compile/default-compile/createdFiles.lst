@@ -1,0 +1,7 @@
+ParseFile/LoaderVote.class
+ParseFile/TimePeriod.class
+ParseFile/DBConnection.class
+ParseFile/XMLHandler.class
+ParseFile/WorkTime.class
+ParseFile/Voter.class
+ParseFile/WriteDataInDBRunnable.class

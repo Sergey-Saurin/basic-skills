@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="MainPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="443" height="310"/>
+    </constraints>
+    <properties>
+      <background color="-459009"/>
+      <enabled value="true"/>
+      <minimumSize width="-1" height="-1"/>
+      <preferredSize width="-1" height="-1"/>
+    </properties>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="false"/>
+    </clientProperties>
+    <border type="bevel-raised"/>
+    <children>
+      <grid id="d1cbc" binding="panelName" layout-manager="FlowLayout" hgap="30" vgap="10" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-459009"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="19ee2" class="javax.swing.JLabel" binding="nameLabel">
+            <constraints/>
+            <properties>
+              <text value="Имя: "/>
+            </properties>
+          </component>
+          <component id="af676" class="javax.swing.JTextField" binding="name">
+            <constraints/>
+            <properties>
+              <background color="-459009"/>
+              <horizontalAlignment value="0"/>
+              <minimumSize width="-1" height="-1"/>
+              <name value="Имя"/>
+              <opaque value="true"/>
+              <preferredSize width="180" height="30"/>
+              <text value=""/>
+              <toolTipText value=""/>
+              <visible value="true"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+        </children>
+      </grid>
+      <grid id="51f99" binding="panelSurname" layout-manager="FlowLayout" hgap="1" vgap="10" flow-align="1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-459009"/>
+        </properties>
+        <border type="none">
+          <font/>
+        </border>
+        <children>
+          <component id="7a7c2" class="javax.swing.JLabel" binding="surnameLabel">
+            <constraints/>
+            <properties>
+              <text value="Фамилия: "/>
+            </properties>
+          </component>
+          <component id="2c9b4" class="javax.swing.JTextField" binding="surname">
+            <constraints/>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-459009"/>
+              <doubleBuffered value="false"/>
+              <dragEnabled value="false"/>
+              <enabled value="true"/>
+              <focusable value="true"/>
+              <horizontalAlignment value="0"/>
+              <inheritsPopupMenu value="true"/>
+              <margin top="2" left="6" bottom="2" right="6"/>
+              <minimumSize width="-1" height="-1"/>
+              <name value="Sur name"/>
+              <preferredSize width="180" height="30"/>
+              <scrollOffset value="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="41ac" binding="panelPatronymic" layout-manager="FlowLayout" hgap="1" vgap="10" flow-align="1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="350" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-459009"/>
+          <foreground color="-12236470"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="362f8" class="javax.swing.JLabel" binding="patronymicLabel">
+            <constraints/>
+            <properties>
+              <name value=""/>
+              <text value="Отчечтво: "/>
+              <verticalAlignment value="0"/>
+            </properties>
+          </component>
+          <component id="37335" class="javax.swing.JTextField" binding="patronymic">
+            <constraints/>
+            <properties>
+              <background color="-459009"/>
+              <horizontalAlignment value="0"/>
+              <minimumSize width="-1" height="-1"/>
+              <name value="Patronymic"/>
+              <opaque value="true"/>
+              <preferredSize width="180" height="30"/>
+              <text value=""/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="76220" binding="panelFullName" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-459009"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="47277" class="javax.swing.JTextField" binding="fullName">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <alignmentX value="1.0"/>
+              <alignmentY value="1.0"/>
+              <background color="-327749"/>
+              <focusCycleRoot value="true"/>
+              <focusTraversalPolicyProvider value="true"/>
+              <font name="Arial Black" size="20"/>
+              <horizontalAlignment value="0"/>
+              <inheritsPopupMenu value="false"/>
+              <margin top="8" left="12" bottom="8" right="12"/>
+              <minimumSize width="-1" height="-1"/>
+              <opaque value="false"/>
+              <preferredSize width="-1" height="-1"/>
+              <scrollOffset value="0"/>
+              <visible value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="dac0b" class="javax.swing.JButton" binding="button">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="2" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="30"/>
+            <maximum-size width="-1" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <actionCommand value="Button"/>
+          <minimumSize width="-1" height="-1"/>
+          <name value="button"/>
+          <text value="Collapse"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
