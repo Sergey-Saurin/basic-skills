@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th = "http://www.thymelaef.org">
+<head>
+    <meta charset="utf-8" />
+    <title>Список дел</title>
+</head>
+<body>
+<div id="business-list">
+    <div></div>
+    <div th:each="business : ${businesses}">
+        <a class="business-text" th:attr="data-id=${business.id}" th:text="${business.name}"></a>
+    </div>
+    <p th:text="${parametrTest}"></p>
+</div>
+
+</body>
+</html>
